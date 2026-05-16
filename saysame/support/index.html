@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support — Saysame</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+      max-width: 720px;
+      margin: 2rem auto;
+      padding: 0 1.25rem 4rem;
+      line-height: 1.65;
+      color: #1d1d1f;
+      -webkit-font-smoothing: antialiased;
+    }
+    h1, h2, h3, h4 { color: #1d1d1f; line-height: 1.3; }
+    h1 { font-size: 1.875rem; margin-top: 0; }
+    h2 { font-size: 1.4rem; margin-top: 2rem; border-bottom: 1px solid #e5e5ea; padding-bottom: 0.3rem; }
+    h3 { font-size: 1.125rem; margin-top: 1.5rem; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code { background: #f5f5f7; padding: 0.1em 0.35em; border-radius: 4px; font-size: 0.92em; }
+    pre code { display: block; padding: 0.75rem; overflow-x: auto; }
+    blockquote { border-left: 3px solid #d2d2d7; margin: 1rem 0; padding: 0.25rem 1rem; color: #515154; }
+    hr { border: 0; border-top: 1px solid #e5e5ea; margin: 2.5rem 0; }
+    ul, ol { padding-left: 1.5rem; }
+    li { margin: 0.25rem 0; }
+    .markdown-heading .anchor { display: none; } /* hide GitHub anchor permalinks */
+    @media (prefers-color-scheme: dark) {
+      body { background: #1c1c1e; color: #f2f2f7; }
+      h1, h2, h3, h4 { color: #f2f2f7; }
+      h2 { border-bottom-color: #38383a; }
+      a { color: #6ab7ff; }
+      code { background: #2c2c2e; }
+      blockquote { border-left-color: #38383a; color: #aeaeb2; }
+      hr { border-top-color: #38383a; }
+    }
+  </style>
+</head>
+<body>
+<h1 dir="auto">Saysame — Support</h1>
+<blockquote>
+<p dir="auto">Published at <code class="notranslate">https://krapowkaidao.github.io/saysame/support</code>.<br>
+<strong>Last updated:</strong> 2026-05-12</p>
+</blockquote>
+<hr>
+<h2 dir="auto">English</h2>
+<h3 dir="auto">Need help? Email us.</h3>
+<p dir="auto"><strong><a href="mailto:support@krapowkaidao.com">support@krapowkaidao.com</a></strong> — we read every message and aim to reply within 2 business days (Thailand time).</p>
+<h3 dir="auto">Frequently asked questions</h3>
+<p dir="auto"><strong>Q: My reminder didn't fire on time.</strong><br>
+A: iOS limits each app to 64 pending notifications. If you have a lot of reminders scheduled, the furthest-out ones may be dropped. Try deleting old reminders or marking completed ones. Also check Settings → Saysame → Notifications is allowed.</p>
+<p dir="auto"><strong>Q: Voice doesn't work / mic sheet closes immediately.</strong><br>
+A: On simulator this is expected (no microphone hardware). On a real device, check Settings → Saysame → Microphone + Speech Recognition are both allowed. If you have peer audio apps (TikTok, Spotify) playing right before you tap mic, give Saysame a moment to acquire the audio session.</p>
+<p dir="auto"><strong>Q: My data isn't syncing across devices.</strong><br>
+A: Make sure all devices are signed into the same iCloud account, iCloud Drive is on, and Saysame is enabled in iCloud Drive settings (Settings → [your name] → iCloud → iCloud Drive). CloudKit sync can take seconds to minutes depending on network. If a device is force-quit, it won't receive silent sync push until you reopen the app.</p>
+<p dir="auto"><strong>Q: I subscribed to Premium but the app still shows me as free.</strong><br>
+A: Open Settings → Premium → tap "Restore Purchases". If that doesn't help, force-quit and reopen the app. Subscription verification happens on launch and on app foreground.</p>
+<p dir="auto"><strong>Q: I want to cancel my subscription.</strong><br>
+A: iOS Settings → [your name] → Subscriptions → Saysame Premium → Cancel. You'll keep Premium access until the end of the current billing period. We don't have a separate cancellation button in the app — Apple handles this.</p>
+<p dir="auto"><strong>Q: Can I get a refund?</strong><br>
+A: Refunds are handled by Apple, not by us. Visit <a href="https://reportaproblem.apple.com" rel="nofollow">https://reportaproblem.apple.com</a> and select the Saysame Premium charge.</p>
+<p dir="auto"><strong>Q: How do I delete a reminder forever / empty the Trash?</strong><br>
+A: Long-swipe left on a reminder, or open the Trash segment and tap "Empty Trash" (with confirmation). Trash auto-purges items older than 30 days.</p>
+<p dir="auto"><strong>Q: I lost my reminders / I want a backup.</strong><br>
+A: If you had iCloud sync enabled, reinstalling the app on the same Apple ID restores everything. If you never enabled iCloud sync, reminders are local-only and cannot be recovered after uninstall.</p>
+<p dir="auto"><strong>Q: Does Saysame work without internet?</strong><br>
+A: Yes, 100% offline-first. Network is only used for iCloud sync (optional) and the App Store subscription check. Voice recognition is on-device — no internet required.</p>
+<p dir="auto"><strong>Q: Why is the app called "Saysame"?</strong><br>
+A: One tap on the mic + one sentence spoken = one reminder created. Speed is the design goal.</p>
+<h3 dir="auto">Bug reports</h3>
+<p dir="auto">If you find a bug, please include:</p>
+<ol dir="auto">
+<li>The iOS version (Settings → General → About → Software Version)</li>
+<li>The Saysame version (Settings → About → Version)</li>
+<li>The exact steps to reproduce</li>
+<li>A screenshot if visible</li>
+</ol>
+<p dir="auto">Email to <a href="mailto:support@krapowkaidao.com">support@krapowkaidao.com</a> with the subject line <code class="notranslate">[Bug]</code>.</p>
+<h3 dir="auto">Feature requests</h3>
+<p dir="auto">We love hearing what you'd build into Saysame next. Email with the subject line <code class="notranslate">[Feature]</code>. We prioritize requests that come up frequently.</p>
+<hr>
+<h2 dir="auto">ภาษาไทย</h2>
+<h3 dir="auto">ต้องการความช่วยเหลือ? อีเมลหาเรา</h3>
+<p dir="auto"><strong><a href="mailto:support@krapowkaidao.com">support@krapowkaidao.com</a></strong> — เราอ่านทุกข้อความและตอบกลับภายใน 2 วันทำการ (เวลาไทย)</p>
+<h3 dir="auto">คำถามที่พบบ่อย</h3>
+<p dir="auto"><strong>Q: การแจ้งเตือนไม่ทำงานตามเวลา</strong><br>
+A: iOS จำกัด pending notification ที่ 64 รายการต่อแอป ถ้ามีนัดเยอะ ๆ รายการที่อยู่ไกลที่สุดอาจถูกตัด ลองลบนัดเก่าหรือ mark completed นัดที่ทำเสร็จแล้ว นอกจากนี้ตรวจสอบ Settings → Saysame → Notifications อนุญาตอยู่หรือไม่</p>
+<p dir="auto"><strong>Q: ไมค์ไม่ทำงาน / sheet ปิดเองทันทีหลังกด</strong><br>
+A: บน simulator เป็นเรื่องปกติ (ไม่มี hardware ไมค์) บนเครื่องจริงตรวจสอบ Settings → Saysame → Microphone + Speech Recognition ทั้งคู่ถูกอนุญาต ถ้ามีแอปอื่น (TikTok, Spotify) ใช้เสียงก่อนกดไมค์ ให้เวลา Saysame สักครู่ในการรับ audio session</p>
+<p dir="auto"><strong>Q: ข้อมูลไม่ sync ข้ามอุปกรณ์</strong><br>
+A: ตรวจสอบทุกเครื่องลงชื่อเข้า iCloud account เดียวกัน, iCloud Drive เปิดอยู่ และ Saysame ถูกเปิดใน iCloud Drive settings (Settings → [ชื่อของคุณ] → iCloud → iCloud Drive) การ sync ใช้เวลาหลายวินาทีถึงนาทีขึ้นกับ network ถ้าเครื่องไหน force-quit จะไม่ได้รับ silent sync push จนกว่าจะเปิดแอปอีกครั้ง</p>
+<p dir="auto"><strong>Q: สมัคร Premium แล้วแต่แอปยังขึ้นว่าใช้ free อยู่</strong><br>
+A: เปิด Settings → Premium → กด "Restore Purchases" ถ้ายังไม่ได้ลองปิดแอป (force-quit) แล้วเปิดใหม่ การตรวจสอบ subscription ทำตอนเปิดแอปและตอน foreground</p>
+<p dir="auto"><strong>Q: ต้องการยกเลิก subscription</strong><br>
+A: iOS Settings → [ชื่อของคุณ] → Subscriptions → Saysame Premium → Cancel คุณจะยังใช้ Premium ได้จนสิ้นรอบบิลปัจจุบัน เราไม่มีปุ่มยกเลิกแยกในแอป — Apple จัดการให้</p>
+<p dir="auto"><strong>Q: ขอเงินคืนได้ไหม</strong><br>
+A: การคืนเงินจัดการโดย Apple ไม่ใช่เรา เข้า <a href="https://reportaproblem.apple.com" rel="nofollow">https://reportaproblem.apple.com</a> แล้วเลือก charge ของ Saysame Premium</p>
+<p dir="auto"><strong>Q: ลบการแจ้งเตือนถาวร / เคลียร์ Trash ยังไง</strong><br>
+A: Swipe ซ้ายยาวบนการแจ้งเตือน หรือเปิด Trash segment แล้วกด "Empty Trash" (ยืนยันก่อน) Trash auto-purge รายการที่เก่ากว่า 30 วันโดยอัตโนมัติ</p>
+<p dir="auto"><strong>Q: ข้อมูลหาย / อยาก backup</strong><br>
+A: ถ้าเปิด iCloud sync ไว้ ติดตั้งแอปใหม่ในเครื่องที่ login Apple ID เดียวกัน ข้อมูลจะกลับมาอัตโนมัติ ถ้าไม่เคยเปิด iCloud sync ข้อมูลอยู่แค่บนเครื่อง — ถอนติดตั้งแล้วกู้ไม่ได้</p>
+<p dir="auto"><strong>Q: Saysame ทำงานออฟไลน์ได้ไหม</strong><br>
+A: ได้ 100% offline-first ใช้ network เฉพาะตอน iCloud sync (optional) และตรวจสอบ App Store subscription การรู้จำเสียงทำงานบนเครื่อง — ไม่ต้องใช้ internet</p>
+<p dir="auto"><strong>Q: ทำไมแอปชื่อ "Saysame"</strong><br>
+A: กดไมค์หนึ่งครั้ง + พูดหนึ่งประโยค = สร้างหนึ่งการแจ้งเตือน ความเร็วคือ design goal</p>
+<h3 dir="auto">รายงานบั๊ก</h3>
+<p dir="auto">ถ้าเจอบั๊ก กรุณาระบุ:</p>
+<ol dir="auto">
+<li>เวอร์ชัน iOS (Settings → General → About → Software Version)</li>
+<li>เวอร์ชัน Saysame (Settings → About → Version)</li>
+<li>ขั้นตอนทำซ้ำ</li>
+<li>screenshot ถ้ามี</li>
+</ol>
+<p dir="auto">อีเมลที่ <a href="mailto:support@krapowkaidao.com">support@krapowkaidao.com</a> หัวเรื่อง <code class="notranslate">[Bug]</code></p>
+<h3 dir="auto">ขอ feature ใหม่</h3>
+<p dir="auto">เราอยากฟังว่าคุณอยากให้ Saysame ทำอะไรเพิ่ม อีเมลหัวเรื่อง <code class="notranslate">[Feature]</code> เราให้ความสำคัญกับ request ที่มาบ่อย ๆ</p>
+</body>
+</html>
